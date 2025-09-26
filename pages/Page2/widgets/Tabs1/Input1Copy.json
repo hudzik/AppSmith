@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 8,
+  "bottomRow": 16,
   "boxShadow": "none",
   "defaultText": "",
   "dynamicBindingPathList": [
@@ -23,7 +23,7 @@
   "isRequired": false,
   "isVisible": true,
   "key": "ze6wlkyui8",
-  "label": "Imię",
+  "label": "Nazwisko",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
@@ -48,9 +48,9 @@
   "responsiveBehavior": "fill",
   "rightColumn": 21,
   "showStepArrows": false,
-  "topRow": 1,
+  "topRow": 9,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "0ixckr2ai2",
-  "widgetName": "Input1"
+  "widgetId": "uvvmxd6in4",
+  "widgetName": "Input1Copy"
 }

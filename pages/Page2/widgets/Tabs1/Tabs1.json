@@ -5,12 +5,12 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 24,
-  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "bottomRow": 91,
+  "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 160,
+      "bottomRow": 750,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -23,6 +23,7 @@
         }
       ],
       "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
       "flexLayers": [],
       "isDisabled": false,
       "isLoading": false,
@@ -46,7 +47,7 @@
       "rightColumn": 358.125,
       "shouldScrollContents": false,
       "tabId": "tab1",
-      "tabName": "Tab 1",
+      "tabName": "Dane wnioskodawcy",
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
@@ -55,7 +56,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 160,
+      "bottomRow": 750,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -68,6 +69,7 @@
         }
       ],
       "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
       "flexLayers": [],
       "isDisabled": false,
       "isLoading": false,
@@ -91,7 +93,7 @@
       "rightColumn": 358.125,
       "shouldScrollContents": false,
       "tabId": "tab2",
-      "tabName": "Tab 2",
+      "tabName": "Dane kredytowe",
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
@@ -106,19 +108,17 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "boxShadow"
     }
   ],
-  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
   "isLoading": false,
   "isVisible": true,
   "key": "6oxp46m1mi",
   "leftColumn": 5,
-  "maxDynamicHeight": 9000,
+  "maxDynamicHeight": 52,
   "minDynamicHeight": 15,
   "minWidth": 450,
   "mobileBottomRow": 19,
@@ -126,14 +126,14 @@
   "mobileRightColumn": 29,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "originalBottomRow": 23,
-  "originalTopRow": 4,
+  "originalBottomRow": 91,
+  "originalTopRow": 12,
   "parentColumnSpace": 14.921875,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 29,
+  "rightColumn": 56,
   "shouldScrollContents": true,
   "shouldShowTabs": true,
   "tabsObj": {
@@ -141,7 +141,7 @@
       "id": "tab1",
       "index": 0,
       "isVisible": true,
-      "label": "Tab 1",
+      "label": "Dane wnioskodawcy",
       "positioning": "vertical",
       "widgetId": "msty5s0oab"
     },
@@ -149,12 +149,12 @@
       "id": "tab2",
       "index": 1,
       "isVisible": true,
-      "label": "Tab 2",
+      "label": "Dane kredytowe",
       "positioning": "vertical",
       "widgetId": "7m5uo6luqu"
     }
   },
-  "topRow": 4,
+  "topRow": 12,
   "type": "TABS_WIDGET",
   "version": 3,
   "widgetId": "s9f3uzkq99",
