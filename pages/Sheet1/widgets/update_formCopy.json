@@ -5,7 +5,7 @@
   "borderColor": "#2E3D4955",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "0",
-  "bottomRow": 98,
+  "bottomRow": 97,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "childStylesheet": {
     "ARRAY": {
@@ -103,7 +103,7 @@
       "key": "schema.__root_schema__.cellBorderRadius"
     },
     {
-      "key": "submitButtonStyles.borderRadius"
+      "key": "submitButtonStyles.buttonColor"
     },
     {
       "key": "resetButtonStyles.buttonColor"
@@ -230,24 +230,22 @@
   "isVisible": "{{data_table.selectedRow!==undefined}}",
   "key": "h9l9ozr8op",
   "labelTextSize": "0.875rem",
-  "leftColumn": 1,
+  "leftColumn": 26,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "onSubmit": "{{UpdateQuery.run(() => SelectQuery.run(), (error) => showAlert(`Error while updating row!\\n${error}`,'error'))}}",
-  "originalBottomRow": 101,
-  "originalTopRow": 19,
   "parentColumnSpace": 16.3125,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "resetButtonLabel": "",
+  "resetButtonLabel": "Reset",
   "resetButtonStyles": {
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "boxShadow": "none",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "buttonVariant": "SECONDARY"
   },
-  "rightColumn": 24,
+  "rightColumn": 49,
   "schema": {
     "__root_schema__": {
       "accessor": "__root_schema__",
@@ -271,7 +269,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Czy Posiadasz Status Rezydenta",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Czy posiadasz status rezydenta?",
@@ -293,7 +291,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Data Urodzenia",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Data urodzenia",
@@ -315,7 +313,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Nazwisko",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Nazwisko",
@@ -337,7 +335,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Obywatelstwo",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Obywatelstwo",
@@ -359,7 +357,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "PESEL",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "PESEL",
@@ -403,7 +401,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Imie",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Imię",
@@ -447,7 +445,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Prowadze Dzialalnosc Gospodarcza",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "Prowadzę działalność gospodarczą",
@@ -476,19 +474,19 @@
     }
   },
   "scrollContents": true,
-  "showReset": false,
+  "showReset": true,
   "sourceData": "{{_.omit(data_table.selectedRow, \"customColumn1\", \"__originalIndex__\", \"__primaryKey__\", \"rowIndex\")}}",
-  "submitButtonLabel": "",
+  "submitButtonLabel": "Update",
   "submitButtonStyles": {
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "0.375rem",
     "boxShadow": "none",
-    "buttonColor": "#ffffff",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "buttonVariant": "PRIMARY"
   },
   "title": "",
-  "topRow": 16,
+  "topRow": 15,
   "type": "JSON_FORM_WIDGET",
   "version": 1,
-  "widgetId": "tn9ri7ylp2",
-  "widgetName": "update_form"
+  "widgetId": "pgqbwzygs3",
+  "widgetName": "update_formCopy"
 }

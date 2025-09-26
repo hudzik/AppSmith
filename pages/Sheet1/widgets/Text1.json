@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 14,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "dncprgzpcl",
+  "leftColumn": 3,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 13,
+  "mobileLeftColumn": 4,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 9,
+  "needsErrorInfo": false,
+  "originalBottomRow": 17,
+  "originalTopRow": 13,
+  "overflow": "NONE",
+  "parentColumnSpace": 14.921875,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 19,
+  "shouldTruncate": false,
+  "text": "Dane wnioskodawcy",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 10,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "lp26t11vwb",
+  "widgetName": "Text1"
+}

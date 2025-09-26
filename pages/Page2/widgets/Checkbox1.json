@@ -1,0 +1,46 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 48,
+  "defaultCheckedState": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "ezif5lwy27",
+  "label": "Label",
+  "labelPosition": "Left",
+  "leftColumn": 11,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 43,
+  "mobileLeftColumn": 11,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 39,
+  "needsErrorInfo": false,
+  "originalBottomRow": 47,
+  "originalTopRow": 43,
+  "parentColumnSpace": 14.921875,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 23,
+  "topRow": 44,
+  "type": "CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "9e2dqx5yw5",
+  "widgetName": "Checkbox1"
+}
